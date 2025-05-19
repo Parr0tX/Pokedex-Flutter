@@ -1,16 +1,21 @@
-# pokeapi
+# Pokedex-Flutter
 
-A new Flutter project.
+Una Pokédex hecha en Flutter que consume datos desde un archivo JSON alojado en GitHub.
 
-## Getting Started
+## Fuente de datos
 
-This project is a starting point for a Flutter application.
+Esta app **no utiliza la PokeAPI oficial**, sino un archivo `pokedex.json` disponible en el siguiente repositorio:
 
-A few resources to get you started if this is your first Flutter project:
+🔗 https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Listado de Pokémon con imagen, tipo y número
+- Interfaz amigable y adaptable a diferentes tamaños de pantalla
+
+## Tecnologías utilizadas
+
+- Flutter
+- Dart
+- HTTP (paquete para consumir el JSON)
+- Material Design
